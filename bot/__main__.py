@@ -123,10 +123,10 @@ async def start(_, message):
     elif config_dict['DM_MODE']:
         start_string = 'Bot Started.\n' \
                        'Now I can send your stuff here.\n' \
-                       'Use me here: @Z_Mirror'
+                       'Use me here: @Mirrorcloudbd'
     else:
         start_string = 'Sorry, you cant use me here!\n' \
-                       'Join @Z_Mirror to use me.\n' \
+                       'Join @Mirrorcloudbd to use me.\n' \
                        'Thank You'
     await sendMessage(message, start_string)
 
